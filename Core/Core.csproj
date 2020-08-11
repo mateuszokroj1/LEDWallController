@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>LEDWallController.Core</AssemblyName>
+    <RootNamespace>LedWallController</RootNamespace>
+    <Authors>Mateusz Okrój</Authors>
+    <Product>LED Wall Controller</Product>
+    <Description>Core module of LED Wall Controller</Description>
+    <Copyright>GNU GPL 3.0</Copyright>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="Plugin.xsd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
